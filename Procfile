@@ -1,1 +1,1 @@
-web: python rec_app.py --blind 0.0.0.0:${PORT} wsgi
+web: sh setup.sh && streamlit run rec_app.py
